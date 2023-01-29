@@ -1,0 +1,36 @@
+@import url(reset.css);
+
+h1 ~ p {
+    color: maroon;
+}
+
+.list > li{
+    color: blueviolet;
+}
+
+h1,
+h2 {
+    color: rgb(250, 32, 72);
+}
+
+.first * {
+    color: rgb(23, 116, 116);
+}
+
+.first > h2 {
+    color: rgb(250, 32, 72);
+}
+
+
+.second > p {
+    color:green;
+}
+
+div ~ div {
+    color: blue;
+}
+
+footer {
+    color: lightslategray;
+}
+
