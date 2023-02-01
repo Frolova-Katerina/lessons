@@ -1,0 +1,130 @@
+@import url("reset.css");
+@import url(https://fonts.googleapis.com/css?family=Murecho:300,800&display=swap);
+
+
+h1{
+    font-family:"Roboto", serif; 
+    font-size: 40px;
+    font-style:italic;
+    font-weight:700;
+    color: darkslategrey;
+    text-align: center;
+    text-shadow: 2px 2px 5px gray;
+}
+
+h2{
+    font-family:"Roboto", serif;
+    font-size: 40px;
+    font-style:italic;
+    font-weight:500;
+    color: darkslategrey;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(128, 128, 128);
+    line-height: 2;
+}
+.overview p {
+    font-family:"Goldman", serif;
+    font-size: 20px;
+    font-weight:700;
+    text-align: center;
+    text-decoration: underline;
+    color: blue;
+}
+
+li{
+    font-family:"Goldman", serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: lowercase;
+    color: chartreuse;
+}
+
+div.update {
+    font-family: "Poppins",sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: oblique;
+    text-decoration:unset;
+    color: rgb(145, 49, 49);
+}
+
+.design p {
+    font-family: "Poppins", serif;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    color: blueviolet;
+}
+
+.dimensions p {
+    font-family: "Poppins",serif;
+    font-weight: 800;
+    text-transform: capitalize;
+    text-decoration: double;
+    color: cadetblue;
+}
+
+@font-face {
+    font-family: "Circular Std Book";
+    src: url("../fonts/CircularStd-Book.woff2") format("woff2"),
+        url("../fonts/CircularStd-Book.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Circular Std";
+    src: url("../fonts/CircularStd-Bold.woff2") format("woff2"),
+        url("../fonts/CircularStd-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+.characteristic p {
+    font-family: "Circular Std";
+    color: cornflowerblue;
+}
+.driving p {
+    font-family: "Circular Std Book";
+    text-align: justify;
+    color: darkgray;
+}
+
+.functions p {
+    font-family: "Murecho", serif;
+    font-weight: 300;
+    font-style: italic;
+    text-decoration: dashed;
+    color: crimson;
+}
+.safety p {
+    font-family: "Murecho", serif;
+    font-weight: 800;
+    font-style: normal;
+    text-decoration: double;
+    color: navy;
+}
+footer {
+    font-family: "Murecho", serif;
+    font-size: 20px;
+    color: slategrey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
