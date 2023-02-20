@@ -120,7 +120,8 @@ color: #212B36;
     }
     .page__price {
         font-size: 18px;
-        font-weight: 24px;
+        line-height: 1.3;
+        font-weight: 600;
         color: #3056D3;
         margin-bottom: 13px;
     }
