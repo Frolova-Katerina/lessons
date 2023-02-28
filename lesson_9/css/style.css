@@ -1,0 +1,139 @@
+@import url(reset.css);
+
+body {
+    font-size: 30px;
+    color: black;
+}
+
+h2 {
+    font-size: 30px;
+    padding-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+.icons {
+    background-color:cadetblue;
+    border: 5px solid red;
+}
+
+
+.icons__block img { 
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+
+.first {
+    background:#3056d3 url(../img/icons/Vector_1.svg) center / 35px no-repeat;
+    display: inline-block;
+    border-radius: 10px;
+    width: 70px;
+    height: 70px;
+}
+.second {
+    background: #3056d3 url(../img/icons/Vector_2.svg) center / 35px no-repeat;
+    display: inline-block;
+    border-radius: 10px;
+    width: 70px;
+    height: 70px;
+}
+.third {
+    background:#3056d3 url(../img/icons/Group_3.svg) center / 35px no-repeat;
+    display: inline-block;
+    border-radius: 10px;
+    width: 70px;
+    height: 70px;
+}
+.fourth {
+    background:#3056d3 url(../img/icons/Group_4.svg) center / 35px no-repeat;
+    display: inline-block;
+    border-radius: 10px;
+    width: 70px;
+    height: 70px;
+}
+.fifth {
+    background: #3056d3 url(../img/icons/Vector_5.svg) center / 35px no-repeat;
+    display: inline-block;
+    border-radius: 10px;
+    width: 70px;
+    height: 70px;
+}
+.sixth {
+    background:#3056d3  url(../img/icons/Vector_6.svg) center / 35px no-repeat;
+    display: inline-block;
+    border-radius: 10px;
+    width: 70px;
+    height: 70px;
+}
+.design__elements {
+    background-color: dimgray;
+    border: 5px solid yellow;
+}
+
+.design__block div {
+    margin-right: 30px;
+}
+
+.oval-1 {
+    background: url(../img/icons/Oval.svg) no-repeat;
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+}
+.dotted {
+    background: url(../img/icons/Dotted.svg) no-repeat;
+    display: inline-block;
+    width: 49px;
+    height: 49px;
+}
+
+.grouptohka {
+    background:url(../img/icons/Grouptohka.svg) no-repeat;
+    display: inline-block;
+    width: 134px;
+    height: 105px; 
+}
+.groupshape {
+    background: url(../img/icons/Groupshape.svg) no-repeat;
+    display: inline-block;
+    width: 134px;
+    height: 105px; 
+}
+.polose {
+    background: url(../img/icons/polose.svg) no-repeat;
+    display: inline-block;
+    width: 179px;
+    height: 196px; 
+}
+.oval {
+    background: url(../img/icons/Oval-1.svg) no-repeat;
+    display: inline-block;
+    width: 55px;
+    height: 55px;  
+}
+.kryg {
+    background:  url(../img/icons/kryg.svg) no-repeat;
+    display: inline-block;
+    width: 90px;
+    height: 90px;  
+}
+.vector{
+    background:  url(../img/icons/Vector07.svg) no-repeat;
+    display: inline-block;
+    width: 162px;
+    height: 200px;   
+}
+.content__imeges {
+    background-color: gray;
+    border-radius: 10px;
+    /* display: inline-block;
+    padding-bottom: 30px; */
+}
+
+.images{
+font-size: 0;
+}
+.content__imeges img {
+    margin-left: 10px;
+    margin-right: 10px;
+}
