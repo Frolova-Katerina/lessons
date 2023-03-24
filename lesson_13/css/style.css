@@ -27,7 +27,7 @@ body{
 
 }
 .conteiner{
-    border: 5px solid chocolate;
+    /* border: 5px solid chocolate; */
     justify-content: center;
 }
 .block div{
@@ -41,7 +41,7 @@ body{
     background-color: brown;
     /* border-radius: 20px; */
     margin-bottom: 50px;
-    /* transform: translate( 10px, 10px); */
+
 }
 .transition__duration{
     transition-duration: 1s;
@@ -125,7 +125,7 @@ body{
 }
 .transition__universal{
     /* transition: all 0.5s ease 0.3s; */
-    transition: heignt 0.8s ease 0.5s, width 0.5s ease-in 0.3s;
+    transition: height 0.6s ease 0.5s, width 0.5s ease-in 0.3s;
 
 }
 .transition__universal:hover{
@@ -134,7 +134,7 @@ body{
     /* transform: translate(20px,20px); */
     width: 200px;
     height: 200px;
-    transition: width 0.6s ease 0.5s, heignt 0.5s ease-in 0.3s;
+    transition: width 0.6s ease 0.5s, height 0.5s ease-in 0.3s;
 }
 
 .block--background-color div{
@@ -339,7 +339,6 @@ body{
 	position: relative;
     width: 100%;
     margin:0 auto; 
-    transform: translate(30px 30px); 
     transition: all 0.9s; 
     
 } 
