@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lessson 16</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header>
+			<div>
+				<h1>Practic lesson 16</h1>
+			</div>
+			<form action="#" class="practic__form" method="get" enctype="multipart/form-data">
+				<div class="form__line">
+					<label class="form__label" for="name-01">Вкажіть ваше ім'я</label>
+					<input class="form__input" id="name-01" type="text" name="username" placeholder="Введіть ім'я"
+						autocomplete="" value="">
+				</div>
+				<div class="form__line">
+					<label class="form__label" for="age-01">Вкажіть ваш вік</label>
+					<input class="form__input" autocomplete="off" id="age-01" type="text" name="age"
+						placeholder="Вкажіть ваш вік" value="">
+				</div>
+				<div class="form__line">
+					<label class="form__label" for="email-01">Вкажіть ваш E-mail</label>
+					<input required class="form__input" id="email-01" type="email" name="mail"
+						placeholder="Вкажіть ваш E-mail" autocomplete="off">
+				</div>
+				<div class="form__line">
+					<label class="form__label" for="phone-01">Вкажіть ваш номер телефону</label>
+					<input class="form__input" autocomplete="off" type="tel" name="phone" placeholder="+38(0--)--- -- --">
+				</div>
+				<div class="form__line">
+					<!-- <label class="form__label" for="age-01"></label> -->
+					<input required class="form__input" autocomplete="off" type="password" name="pass"
+						placeholder="Вкажіть пароль">
+				</div>
+				<div class="form__line">
+					<!-- <label class="form__label"></label> -->
+					<input class="form__input" autocomplete="off" type="number" name="num" placeholder="Введіть число">
+				</div>
+				<div class="form__line">
+					<input class="form__input" autocomplete="off" type="color" name="color" placeholder="Вкажіть ваш вік"
+						value="">
+				</div>
+				<div class="form__line">
+					<input class="form__input" autocomplete="off" type="search" name="search"
+						placeholder="Введіть пошуковий запит">
+				</div>
+				<div class="form__line">
+					<input class="form__input" autocomplete="off" type="date" name="date" placeholder="Виберіть дату ">
+				</div>
+				<div class="form__line">
+					<input class="form__input" autocomplete="off" type="range" name="range">
+				</div>
+				<div class="form__line">
+					<label class="form__label" for="car-01">Є авто?</label>
+					<input class="form__input" autocomplete="off" id="car-01" type="checkbox" name="car">
+				</div>
+				<div class="form__line">
+					<div class="form__title">Улюблена тваринка</div>
+					<div class="form__radio">
+						<input class="form__input" autocomplete="off" id="pet-01" type="radio" name="pet" value="cat">
+						<label class="form__label" for="pet-01">Кішка</label>
+					</div>
+					<div class="form__radio">
+						<input class="form__input" autocomplete="off" id="pet-01" type="radio" name="pet" value="dog">
+						<label class="form__label" for="pet-01">Собака</label>
+					</div>
+				</div>
+			</form>
+		</header>
+		<main class="main">
+			<div class="main__checkout checkout">
+				<div class="checkout__conteiner">
+					<div class="checkout__page">
+						<div class="checkout__main">
+							<div class="checkout__title title">Billing Details
+							</div>
+							<form action="#" class="checkout__forms forms-checkout" method="get" enctype="multipart/form-data">
+								<div class="form-checkout-columns columns-form">
+									<div class="columns-form__line">
+										<input class="columns-form__input" id="name-01" required type="text" name="username"
+											placeholder="First name*" autocomplete="off" value="">
+									</div>
+									<div class="columns-form__line">
+										<input class="columns-form__input" type="text" name="Address" placeholder="Last name*"
+											autocomplete="off" value="">
+									</div>
+									<div class="columns-form__line">
+										<input class="columns-form__input" required type="text" name="" placeholder="Address*"
+											autocomplete="off" value="">
+									</div>
+									<div class="columns-form__line">
+										<input class="columns-form__input" required type="text" name=""
+											placeholder="Address line*" autocomplete="off" value="">
+									</div>
+									<div class="columns-form__line">
+										<select class="columns-form__select" name="Country*">
+											<option value="">Country*</option>
+										</select>
+									</div>
+									<div class="columns-form__line">
+										<input class="columns-form__input" required type="text" name="" placeholder="City/Town*"
+											autocomplete="off" value="">
+									</div>
+									<div class="columns-form__line">
+										<input class="columns-form__input" required type="text" name=""
+											placeholder="Postcode / ZIP*" autocomplete="off" value="">
+									</div>
+									<div class="columns-form__line">
+										<input class="columns-form__input" required type="text" name="" placeholder="Phone*"
+											autocomplete="off" value="">
+									</div>
+									<div class="columns-form__line">
+										<input class="columns-form__input" required type="text" name=""
+											placeholder="Postcode / ZIP*" autocomplete="off" value="">
+									</div>
+									<div class="columns-form__line">
+										<input class="columns-form__input" required type="text" name="" placeholder="Phone*"
+											autocomplete="off" value="">
+									</div>
+									<div class="columns-form__line">
+										<textarea class="columns-form__area" name="message" cols="30" rows="10"
+											placeholder="Additional information"></textarea>
+									</div>
+								</div>
+								<div class="form-checkout-radio radio-checkout">
+									<div class="radio-checkout__line">
+										<input class="radio-checkout__input" id="account-1" type="checkbox" name="account">
+										<label class="radio-checkout__label" autocomplete="off" for="account-1">Create
+											Account</label>
+									</div>
+									<div class="radio-checkout__line">
+										<input class="radio-checkout__input" id="add-1" type="checkbox" name="address">
+										<label class="radio-checkout__label" for="add-1">Ship to a different address?</label>
+									</div>
+								</div>
+								<div class="form-checkout-bottom bottom-checkout">
+									<h3 class="bottom-checkout__title">Apply Coupon to get discount!</h3>
+									<div class="bottom-checkout__coupon">
+										<input class="bottom-checkout__input" type="text" name="coupon" placeholder="Coupon code">
+										<button class="bottom-checkout__button" type="submit">Apply Code</button>
+									</div>
+								</div>
+						</div>
+						</form>
+					</div>
+				</div>
+			</div>
+	</div>
+	</main>
+	<footer></footer>
+	</div>
+
+</body>
+
+</html>
