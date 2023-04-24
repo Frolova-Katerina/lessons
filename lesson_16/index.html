@@ -26,8 +26,8 @@
 			</div>
 			<form action="#" class="practic__form" method="get" enctype="multipart/form-data">
 				<div class="form__line">
-					<label class="form__label" for="name-01">Вкажіть ваше ім'я</label>
-					<input class="form__input" id="name-01" type="text" name="username" placeholder="Введіть ім'я"
+					<label class="form__label" for="nam-01">Вкажіть ваше ім'я</label>
+					<input class="form__input" id="nam-01" type="text" name="username" placeholder="Введіть ім'я"
 						autocomplete="off">
 				</div>
 				<div class="form__line">
@@ -54,7 +54,7 @@
 					<input class="form__input" autocomplete="off" type="number" name="num" placeholder="Введіть число">
 				</div>
 				<div class="form__line">
-					<input class="form__input" autocomplete="off" type="color" name="color" placeholder="Вкажіть ваш вік">
+					<input class="form__input" autocomplete="off" type="color" name="color">
 				</div>
 				<div class="form__line">
 					<input class="form__input" autocomplete="off" type="search" name="search"
@@ -68,16 +68,18 @@
 				</div>
 				<div class="form__line">
 					<label class="form__label" for="car-01">Є авто?</label>
-					<input class="form__input" autocomplete="off" id="car-01" type="checkbox" name="car">
+					<input class="form__input" required autocomplete="off" id="car-01" type="checkbox" name="car">
 				</div>
 				<div class="form__line">
 					<div class="form__title">Улюблена тваринка</div>
 					<div class="form__radio">
-						<input class="form__input" autocomplete="off" id="pet-01" type="radio" name="pet" value="cat">
+						<input class="form__input" required autocomplete="off" id="pet-01" type="radio" name="pet"
+							value="cat">
 						<label class="form__label" for="pet-01">Кішка</label>
 					</div>
 					<div class="form__radio">
-						<input class="form__input" autocomplete="off" id="pet-01" type="radio" name="pet" value="dog">
+						<input class="form__input" required autocomplete="off" id="pet-01" type="radio" name="pet"
+							value="dog">
 						<label class="form__label" for="pet-01">Собака</label>
 					</div>
 				</div>
@@ -110,7 +112,7 @@
 									</div>
 									<div class="columns-form__line">
 										<select class="columns-form__select" name="Country*">
-											<option value="">Country*</option>
+											<option value="#">Country*</option>
 										</select>
 									</div>
 									<div class="columns-form__line">
@@ -122,7 +124,7 @@
 											autocomplete="off">
 									</div>
 									<div class="columns-form__line">
-										<input class="columns-form__input" required type="text" name="" placeholder="Phone*"
+										<input class="columns-form__input" required type="text" placeholder="Phone*"
 											autocomplete="off">
 									</div>
 									<div class="columns-form__line">
@@ -138,7 +140,7 @@
 											placeholder="Additional information"></textarea>
 									</div>
 								</div>
-								<div class="form-checkout-radio radio-checkout">
+								<div class="checkout-radio radio-checkout">
 									<div class="radio-checkout__line">
 										<input class="radio-checkout__input" id="rd-1" type="checkbox" name="account">
 										<label class="radio-checkout__label" for="rd-1">Create Account</label>
@@ -148,15 +150,17 @@
 										<label class="radio-checkout__label" for="add-1">Ship to a different address?</label>
 									</div>
 								</div>
-								<div class="form-checkout-bottom bottom-checkout">
+								<div class="checkout-bottom bottom-checkout">
 									<h3 class="bottom-checkout__title">Apply Coupon to get discount!</h3>
 									<div class="bottom-checkout__coupon">
 										<input class="bottom-checkout__input" type="text" name="coupon" placeholder="Coupon code">
 										<button class="bottom-checkout__button" type="submit">Apply Code</button>
 									</div>
 								</div>
+
+							</form>
 						</div>
-						</form>
+
 					</div>
 				</div>
 			</div>
